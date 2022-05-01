@@ -55,7 +55,7 @@ const Register = () => {
           <Col className="bg-white py-5   rounded">
             <h4 className="pt-1 text-primary  text-center">Register Please !</h4>
 
-            <Form onSubmit={handleFormSubmit}  className="w-75 mx-auto ">
+            <Form onSubmit={handleFormSubmit}  className="w-50 mx-auto ">
 
 
             <Form.Group className="mb-3" controlId="formBasicName">

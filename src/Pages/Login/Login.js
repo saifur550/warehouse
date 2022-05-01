@@ -35,9 +35,6 @@ const Login = () => {
    
   }
 
-
-
-
   const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(
     auth
   );
@@ -78,7 +75,7 @@ const Login = () => {
         <Row className="justify-content-md-center pt-5 ">
           <Col className="bg-white  rounded">
             <h4 className="pt-4 text-primary text-center">Login Please !</h4>
-            <Form  onSubmit={handleFormSubmit}  className="w-75 mx-auto pt-1">
+            <Form  onSubmit={handleFormSubmit}  className="w-50 mx-auto pt-1">
               <Form.Group className="mb-1" controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
                 <Form.Control ref={emailRef}  type="email" placeholder="Enter email" required />

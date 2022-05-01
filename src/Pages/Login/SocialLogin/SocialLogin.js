@@ -38,9 +38,10 @@ const SocialLogin = () => {
                          errorMessage  
                        }
                      
-                       <button onClick={()=>signInWithGoogle()} className="btn  bg gm  btn-outline-dark">Sign in with Google</button>  <br /> <br />
-
+                     <div className="d-flex justify-content-center">
+                     <button onClick={()=>signInWithGoogle()} className="btn  bg gm me-2 btn-outline-dark">Sign in with Google</button> 
                        <button  onClick={()=>signInWithGithub()} className="btn  bg fb  btn-outline-dark"> Sign In with Github </button>
+                     </div>
                </div>
             </div>
         </div>

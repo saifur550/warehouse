@@ -6,5 +6,45 @@
          "price" :"11682000",
          "quantity": "1",
          "supplier": "Amazon"
+    },
+    {
+        "name": " Amazon Corner Sofa ",
+        "img": "https://wedev0.netlify.app/assign-11/img-2.jpg",
+         "description": "Structure Made with solid Mahogany woodImported Fabrics with semi Rubber Foam, Soft Foam, Fiber Foam in CushionSS leg , 8mm Glass on SideColor : Anteak  ", 
+         "price" :"11682000",
+         "quantity": "1",
+         "supplier": "Amazon"
+    },
+    {
+        "name": " Amazon Corner Sofa ",
+        "img": "https://wedev0.netlify.app/assign-11/img-3.jpg",
+         "description": "Structure Made with solid Mahogany woodImported Fabrics with semi Rubber Foam, Soft Foam, Fiber Foam in CushionSS leg , 8mm Glass on SideColor : Anteak  ", 
+         "price" :"11682000",
+         "quantity": "1",
+         "supplier": "Amazon"
+    },
+    {
+        "name": " Amazon Corner Sofa ",
+        "img": "https://wedev0.netlify.app/assign-11/img-7.jpg",
+         "description": "Structure Made with solid Mahogany woodImported Fabrics with semi Rubber Foam, Soft Foam, Fiber Foam in CushionSS leg , 8mm Glass on SideColor : Anteak  ", 
+         "price" :"11682000",
+         "quantity": "1",
+         "supplier": "Amazon"
+    },
+    {
+        "name": " Amazon Corner Sofa ",
+        "img": "https://wedev0.netlify.app/assign-11/img-5.jpg",
+         "description": "Structure Made with solid Mahogany woodImported Fabrics with semi Rubber Foam, Soft Foam, Fiber Foam in CushionSS leg , 8mm Glass on SideColor : Anteak  ", 
+         "price" :"11682000",
+         "quantity": "1",
+         "supplier": "Amazon"
+    },
+    {
+        "name": " Amazon Corner Sofa ",
+        "img": "https://wedev0.netlify.app/assign-11/img-6.jpg",
+         "description": "Structure Made with solid Mahogany woodImported Fabrics with semi Rubber Foam, Soft Foam, Fiber Foam in CushionSS leg , 8mm Glass on SideColor : Anteak  ", 
+         "price" :"11682000",
+         "quantity": "1",
+         "supplier": "Amazon"
     }
 ]
