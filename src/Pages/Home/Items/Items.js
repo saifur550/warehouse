@@ -8,7 +8,8 @@ const Items = () => {
     const [items, setItems] = useState([]);
 
     useEffect( ()=>{
-        fetch('fake.json')
+        fetch('http://localhost:5000/userCollection')
+        // fetch('fake.json')
         .then( res=> res.json())
         .then(data=>setItems(data))
     }, [])
@@ -25,12 +26,13 @@ const Items = () => {
             </p>
                     {
                         items.map( item =><Item
+                        key={item._id}
                         item={item}
                         >
                         </Item>)
                     }
                 </div>
-            </div>
+            </div> 
         </>
     );
 };

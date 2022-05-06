@@ -5,7 +5,8 @@
          "description": "Structure Made with solid Mahogany woodImported Fabrics with semi Rubber Foam, Soft Foam, Fiber Foam in CushionSS leg , 8mm Glass on SideColor : Anteak  ", 
          "price" :"11682000",
          "quantity": "1",
-         "supplier": "Amazon"
+         "supplier": "Amazon",
+         "id":1
     },
     {
         "name": " Amazon Corner Sofa ",
@@ -13,7 +14,8 @@
          "description": "Structure Made with solid Mahogany woodImported Fabrics with semi Rubber Foam, Soft Foam, Fiber Foam in CushionSS leg , 8mm Glass on SideColor : Anteak  ", 
          "price" :"11682000",
          "quantity": "1",
-         "supplier": "Amazon"
+         "supplier": "Amazon",
+         "id":2
     },
     {
         "name": " Amazon Corner Sofa ",
@@ -21,7 +23,8 @@
          "description": "Structure Made with solid Mahogany woodImported Fabrics with semi Rubber Foam, Soft Foam, Fiber Foam in CushionSS leg , 8mm Glass on SideColor : Anteak  ", 
          "price" :"11682000",
          "quantity": "1",
-         "supplier": "Amazon"
+         "supplier": "Amazon",
+         "id":3
     },
     {
         "name": " Amazon Corner Sofa ",
@@ -29,7 +32,8 @@
          "description": "Structure Made with solid Mahogany woodImported Fabrics with semi Rubber Foam, Soft Foam, Fiber Foam in CushionSS leg , 8mm Glass on SideColor : Anteak  ", 
          "price" :"11682000",
          "quantity": "1",
-         "supplier": "Amazon"
+         "supplier": "Amazon",
+         "id":4
     },
     {
         "name": " Amazon Corner Sofa ",
@@ -37,7 +41,8 @@
          "description": "Structure Made with solid Mahogany woodImported Fabrics with semi Rubber Foam, Soft Foam, Fiber Foam in CushionSS leg , 8mm Glass on SideColor : Anteak  ", 
          "price" :"11682000",
          "quantity": "1",
-         "supplier": "Amazon"
+         "supplier": "Amazon",
+         "id":5
     },
     {
         "name": " Amazon Corner Sofa ",
@@ -45,6 +50,7 @@
          "description": "Structure Made with solid Mahogany woodImported Fabrics with semi Rubber Foam, Soft Foam, Fiber Foam in CushionSS leg , 8mm Glass on SideColor : Anteak  ", 
          "price" :"11682000",
          "quantity": "1",
-         "supplier": "Amazon"
+         "supplier": "Amazon",
+         "id":6
     }
 ]
