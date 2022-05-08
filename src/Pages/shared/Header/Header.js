@@ -22,9 +22,14 @@ const Header = () => {
             <Nav className="ms-auto">
               <Nav.Link href="home">Home</Nav.Link>
               <Nav.Link href="about">About</Nav.Link>
-              <Nav.Link href="home#items">items</Nav.Link>
             </Nav>
             <Nav>
+              {
+                user && <>
+                 <Nav.Link as={Link} to ="additems">add items</Nav.Link>
+                 <Nav.Link as={Link} to ="manageitem"> Manage items</Nav.Link>
+                </>
+              }
          {
            user ? 
            <button className="btn btn-link text-white text-decoration-none" onClick={handleSignOut}>SignOut</button>

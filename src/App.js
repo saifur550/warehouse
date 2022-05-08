@@ -13,6 +13,8 @@ import ItemDetails from './Pages/ItemDetails/ItemDetails';
 import ReqireAuth from './Pages/Login/RequireAuth/ReqireAuth';
 import CheckOut from './Pages/CheckOut/CheckOut/CheckOut';
 import AddItems from './Pages/AddItems/AddItems';
+import ManageItem from './Pages/ManageItem/ManageItem';
+
 
 function App() {
   return (
@@ -35,9 +37,15 @@ function App() {
            <AddItems></AddItems>
          </ReqireAuth>
        }></Route>
+       <Route path='/manageitem' element={
+         <ReqireAuth>
+           <ManageItem></ManageItem>
+         </ReqireAuth>
+       }></Route>
        <Route path='/register' element={<Register></Register>}></Route>
        <Route path='*' element={<NotFound></NotFound>}></Route>
      </Routes>
+    
     </div>
   );
 }
