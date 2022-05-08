@@ -7,7 +7,7 @@ const AddItems = () => {
     const onSubmit = data => {
         console.log(data);
 
-
+// url add 
         const url = `http://localhost:5000/item`;
         fetch(url, {
             method: 'POST',
