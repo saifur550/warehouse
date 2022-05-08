@@ -21,13 +21,36 @@ const About = () => {
 
                         <ul>
                             <li>Node.js is a cross-platform, open-source JavaScript runtime environment that enables JavaScript to be run on the server. Node.js enables JavaScript code to run outside of the browser.</li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>js is an MIT-licensed open-source framework.</li>
+                            <li>It is a lightweight framework that includes minimum modules. Other modules may be included as per the requirement of an application.</li>
+                            <li>s applications never buffered any type of data in applications. Node.js applications simply output data in chunks.</li>
+                            <li>js is a quick programming execution library built on the V8 JavaScript Engine in Google Chrome.</li>
+                            <li>It is used the JavaScript language to develop server-side applications.</li>
                         </ul>
 
+                    </div>
+
+                    <div className="part-two">
+                        <h4>2.Differences between `sql` and `nosql` databases.</h4>
+                        <h5>sql</h5>
+                        <ul>
+                            <li>Databases are categorized as Relational Database Management System (RDBMS).</li>
+                            <li>SQL databases have fixed or static or predefined schema.</li>
+                            <li>SQL databases display data in form of tables so it is known as table-based database.</li>
+                            <li>SQL databases are vertically scalable.</li>
+                        </ul>
+
+
+                        <h5>No sql</h5>
+                        <ul>
+                            <li>NoSQL databases are categorized as Non-relational or distributed database system.</li>
+                            <li>NoSQL databases have dynamic schema.</li>
+                            <li>NoSQL databases display data as collection of key-value pair, documents, graph databases or wide-column stores.</li>
+                            <li>NoSQL databases are horizontally scalable.</li>
+                        </ul>
+                    </div>
+                    <div className="part-three">
+                        
                     </div>
                 </div>
             </div>
