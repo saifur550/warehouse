@@ -50,7 +50,12 @@ const About = () => {
                         </ul>
                     </div>
                     <div className="part-three">
-                        
+                        <h4>3. What is the purpose of `jwt` and how does it work</h4>
+                        <p>JSON Web Token is an open standard for securely transferring data within parties using a JSON object. JWT is used for stateless authentication mechanisms for users and providers, this means maintaining session is on the client-side instead of storing sessions on the server. Here, we will implement the JWT authentication system in NodeJs.</p>
+                        <ul>
+                            <li>NodeJs: NodeJs for backend</li>
+                            <li>dotenv: For handling configuration data</li>
+                        </ul>
                     </div>
                 </div>
             </div>
