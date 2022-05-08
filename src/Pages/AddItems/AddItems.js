@@ -25,7 +25,7 @@ const AddItems = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-lg-10 mx-auto ">
+        <div className="col-lg-10 mx-auto mb-5 ">
           <h4 className="display text-center mt-5">New Item Add Here </h4>
           <form className="d-flex flex-column w-50 mx-auto" onSubmit={handleSubmit(onSubmit)}>
             <input className="mb-4 p-1" placeholder="Enter Name " {...register("name")}/>

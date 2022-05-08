@@ -14,6 +14,7 @@ import ReqireAuth from './Pages/Login/RequireAuth/ReqireAuth';
 import CheckOut from './Pages/CheckOut/CheckOut/CheckOut';
 import AddItems from './Pages/AddItems/AddItems';
 import ManageItem from './Pages/ManageItem/ManageItem';
+import Footer from './Pages/shared/Footer/Footer';
 
 
 function App() {
@@ -45,7 +46,7 @@ function App() {
        <Route path='/register' element={<Register></Register>}></Route>
        <Route path='*' element={<NotFound></NotFound>}></Route>
      </Routes>
-    
+     <Footer></Footer>
     </div>
   );
 }

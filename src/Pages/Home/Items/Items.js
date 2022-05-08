@@ -1,11 +1,13 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import Item from '../Item/Item';
 
 
 const Items = () => {
     const [items, setItems] = useState([]);
+    const navigate = useNavigate();
 
     useEffect( ()=>{
         fetch('http://localhost:5000/item')
@@ -13,7 +15,7 @@ const Items = () => {
         .then(data=>setItems(data))
     }, [])
 
-
+ 
 
     return (
         <>
@@ -30,6 +32,9 @@ const Items = () => {
                         >
                         </Item>)
                     }
+                    <div className="text-center py-4">
+                    <Link className='link btn btn-dark'   to ='/manageitem'>Manage Inventories</Link>
+                    </div>
                 </div>
             </div> 
         </>
